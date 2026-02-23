@@ -31,4 +31,13 @@ public class Application {
 
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }
+
+    private Double matchScore;
+    public Double getMatchScore() { return matchScore; }
+    public void setMatchScore(Double matchScore) { this.matchScore = matchScore; }
+    private String candidateSkills;
+
+    public String getCandidateSkills() { return candidateSkills; }
+    public void setCandidateSkills(String candidateSkills) { this.candidateSkills = candidateSkills; }
+
 }

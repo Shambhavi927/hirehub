@@ -31,4 +31,8 @@ public class JobService {
     public void deleteJob(Long id) {
         jobRepository.deleteById(id);
     }
+    public Job getJobById(Long id) {
+        return jobRepository.findById(id).orElse(null);
+    }
+
 }
